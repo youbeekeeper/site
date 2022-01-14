@@ -1,0 +1,37 @@
+// VARIABLES
+
+// Colors
+$blue: #4183C4;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Brands
+$discord-color: #7289da !default;
+$facebook-color: #1877f2 !default;
+$github-color: #333 !default;
+$instagram-color: #517fa4 !default;
+$rss-color: #f26522 !default;
+$telegram-color: #0088cc !default;
+$tiktok-color: #25F4EE !default;
+$twitter-color: #1da1f2 !default;
+$vkontakte-color: #45668e !default;
+$whatsapp-color: #25d366 !default;
+$youtube-color: #ff0000 !default;
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
